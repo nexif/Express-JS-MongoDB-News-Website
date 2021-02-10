@@ -1,0 +1,16 @@
+extends ../layout
+
+block content
+    div.container
+        h1.mb-1
+            | #{article.title}
+        div(class='text-muted mb-2')
+            | #{article.createdAt.toLocaleDateString()}
+        a(href='/' class='btn btn-secondary')
+            | All Articles
+        a(href='/articles/edit/' + article.id class='btn btn-info')
+            | Edit
+        div
+            | !{article.sanitizedHtml}
+
+
