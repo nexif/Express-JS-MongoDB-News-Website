@@ -1,0 +1,20 @@
+extends ../layout
+
+block content
+  //h1= title
+  //p Welcome to #{title}
+  //h1= articles
+
+  div.container
+    h1.mb-4 Blog Articles
+    a(href='/articles/new').btn.btn-success New Article
+
+
+    each article in articles
+        div(class='card mt-4')
+          div(class='card-title')
+            h4= article.title
+            div(class='card-subtitle text-muted mb-2')
+              | #{article.createdAt.toLocaleDateString()}
+            div(class='card-text mb-2')
+              | #{article.description}
