@@ -51,4 +51,9 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
+
+app.get('*', function(req, res){
+  res.status(404).send('Nie znaleziono strony');
+});
+
 module.exports = app;

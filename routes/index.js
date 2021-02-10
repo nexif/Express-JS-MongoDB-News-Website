@@ -14,9 +14,7 @@ router.get('/articles/new', (req,res) =>{
     res.render('articles/new', {article: new Article()})
 })
 
-router.post('/', (req, res, next) =>{
 
-})
 
 
 module.exports = router;
