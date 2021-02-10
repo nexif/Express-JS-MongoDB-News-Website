@@ -32,7 +32,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(methodOverride('_method'));
 app.use(express.urlencoded({extended: false})) //pozwala uzyskać dostęp do pól w formularzu
 app.use('/', indexRouter);
-app.use('/users', usersRouter);
 app.use('/articles', articlesRouter);
 
 

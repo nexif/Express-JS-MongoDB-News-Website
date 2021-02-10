@@ -4,7 +4,7 @@ block content
     div.container
         h1.mb-4 Edit article
         div.form-group
-        form(action='/articles/' + article.id + '?_method=PUT', method='post')
+        form(action='/articles/' + article.id + '?_method=PUT' method='POST')
             div.form-group
                 label.for='Title'
                 input(value=article.title type='text' name='title' id='title' class='form-control' required)

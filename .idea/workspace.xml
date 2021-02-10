@@ -2,19 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7fc4a5d-038e-4e3c-9d86-6ddd6c3fe2bc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/article.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/articles/edit.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/articles/show.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/articles.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/articles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/articles/edit.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/articles/edit.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/articles/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/articles/index.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/articles/new.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/articles/new.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +94,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1612955379090</updated>
-      <workItem from="1612955380573" duration="13757000" />
+      <workItem from="1612955380573" duration="17818000" />
     </task>
     <servers />
   </component>
