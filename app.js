@@ -13,7 +13,9 @@ var articlesRouter = require('./routes/articles');
 
 var app = express();
 
-mongoose.connect('mongodb://localhost/blog', {
+const  mongoAtlasUri = 'mongodb+srv://admin:Test123.@test.zon6t.mongodb.net/test';
+
+mongoose.connect(mongoAtlasUri, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useCreateIndex: true
